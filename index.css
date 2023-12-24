@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0;
+    background: url(https://img.freepik.com/free-photo/abstract-blue-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displacement_1217-2510.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703376000&semt=ais);
+}
+
+.container {
+    border: 3px solid black;
+    width: 1200px;
+    height: 1200px;
+    background-color: white;
+}
+
+span {
+    color: red;
+}
+
+#firstname {
+    width: 250px;
+    height: 40px;
+}
+
+#lastname {
+    width: 250px;
+    margin-left: 30px;
+    height: 40px;
+}
+
+b {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.ns {
+    display: inline;
+    position: relative;
+}
+
+.ln {
+    position: absolute;
+    bottom: 25px;
+    left: 285px;
+}
+
+#email {
+    width: 536px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.star input {
+    display: none;
+}
+
+.star label {
+    font-size: 20px;
+    color: gold;
+}
+
+th {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+td {
+    text-align: center;
+}
+
+.thead {
+    padding: 0;
+}
+
+tr {
+    height: 50px;
+}
+
+#text {
+    width: 1050px;
+    height: 200px;
+}
+
+input[type="button"] {
+    width: 100px;
+    height: 50px;
+}
